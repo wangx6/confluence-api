@@ -1,0 +1,26 @@
+{
+     "name": "Hello World",
+     "description": "Atlassian Connect add-on",
+     "key": "com.example.myaddon",
+     "baseUrl": "https://rawgit.com",
+     "vendor": {
+         "name": "Deloitte Digital Ireland",
+         "url": "http://example.com"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "apiVersion": 1,
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/wangx6/test-confluence-plugin/master/simple-add-on/helloworld.html",
+                 "key": "hello-world",
+                 "location": "system.header/left",
+                 "name": {
+                     "value": "Greeting"
+                 }
+             }
+         ]
+     }
+ }
